@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+    background-color: rgb(214, 210, 210);
+    width: 400px;
+
+}
+
+.sidebar nav{
+    padding: 0px;
+    height: 100vh;
+}
+
+
+
+.sidebar nav li{
+
+    list-style: none;
+    font-size: 30px;
+    margin: 0px;
+    padding: 33px;
+    
+}
+.sidebar nav li a{
+text-decoration: none;
+color:black;
+   
+}
+
+
+
+.main{
+
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+
+.infoContainer{
+    /* background-color: aqua; */
+    height: 58vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;   
+}
+
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 40<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VIKASH FULL STACK DEVELOPER</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                
+                <nav> 
+                    <ul>
+                        <li> <a href="home.html">Home</a></li>
+                        <li> <a href="service.html">Services</a></li>
+                        <li> <a href="cv.html">CV</a></li>
+                        <li> <a href="blog.html">BLOG</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main">
+                <div class="infoContainer"> 
+                    <div class="devinfo">
+                        <div class="hello">I'M</div>
+                        <div class="name">VIKASH</div>
+                        <div class="about">Full Stack Developer,Software Developer,Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsa natus necessitatibus dicta in eveniet eos expedita asperiores? Suscipit, rerum neque iure laudantium unde tempora ipsa recusandae labore alias ipsam dolor nihil dolore architecto.</div>
+                        <div class="buttons">
+                           <button>Download CV</button>
+                           <button>Contact Me</button>
+                        </div>
+                    </div>
+                    <div class="devpic"><img src="vishu321.png" alt="VIKASH"></div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </body>
+    </html>px;
+    font-weight: bold;
+}
+.about{
+    font-size: 15px;
+}
+
+.buttons button{
+    margin-top: 20px;
+    padding: 9px;
+margin: 31px;
+background-color: #1186b5;
+color: rgb(255, 255, 255);
+font-weight: bolder;
+border-radius: 20px;
+cursor: pointer;
+margin: 0px 3px;
+   
+} 
+.buttons button:hover{
+    color: #1186b5;
+background-color:white;
+}
+
+
+
+
+
+.devpic img{
+height: 40vh;
+}
+
+.contactform{
+    padding-top: 200px;
+    padding: 0px 34px;
+
+}
+
+
+.contactform h2{
+     text-align: center;
+     padding: 79px;
+     padding-top: 12px 0px;
+}
+
+
+.contactform div{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 9px;
+color: blue;
+}
+
+.contactform form-label{
+    width: 205px;
+border-radius: 19px;
+}
+
+#clientEmail{
+    width: 205px;
+border-radius: 19px;
+}
+
+#clientphone{
+    width: 205px;
+    border-radius: 19px;
+}
+
+#form-check input{
+    width: 5px;
+    margin: 3px 0px;
+}
+
+.button.btn.btn-primary{
+    
+width: 93px;
+background: skyblue;
+border-radius: 37px;
+}
+}
+
+.button.btn.btn-sm{
+    width: 100px;
+border-radius: 10px;
+background: skyblue;
+}
+
+.skillcontainer{
+  padding: 12px;  
+}
+
+.skill{
+    width: 200px;
+    height: 6px;
+    background-color:skyblue;
+}
+
+
+
+
+
+
+
+.blogitem button{
+    padding: 9px;
+margin: 31px;
+background-color: #1186b5;
+color: rgb(255, 255, 255);
+font-weight: bolder;
+border-radius: 20px;
+cursor: pointer;
+margin: 0px 3px;
+}
+.blogitem button:hover{
+    color: #1186b5;
+background-color:white;
+}
+
+
+ /* @media (max-width:1650px){
+    *{
+/* background-color: red; */
+    }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+ } */
+.hamburg{
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 175px;
+}
+
+.sidebarGO{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+
+.main{
+    background-color: white;
+}
